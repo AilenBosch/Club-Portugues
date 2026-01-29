@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos generales*/
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(200, 242, 203);
+}
+
+p {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+/*Header*/
+header {
+    text-align: center;
+    background-color: rgb(1, 50, 19);
+    color: rgb(255, 255, 253);
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    padding: 10px;
+}
+
+.logo-circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/*Footer*/
+footer {
+    background-color: rgb(1, 50, 19);
+    text-align: right;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.logo-footer {
+    width: 35px;
+    height: 30px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+
+.derechos {
+    text-align: left;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor-derechos {
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creado {
+    text-align: left;
+    font-size: medium;
+    color: rgb(252, 252, 252);
+    display: inline;
+
+}
+
+.contenedor-creado {
+    justify-self: start;
+}
+
+/*Deportes*/
+
+.Card {
+    border: 1px solid rgb(1, 50, 19);
+    border-radius: 8px;
+    padding: 50px;
+    margin: auto;
+    gap: 15px;
+    box-shadow: 2px 2px 6px rgba(88, 1, 1, 0.836);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 45%;
+    max-width: 320px;
+}
